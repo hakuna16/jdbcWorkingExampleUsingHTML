@@ -1,0 +1,10 @@
+function validation(){
+	var email = document.getElementById("exampleInputEmail1").value;
+	var passoword = document.getElementById("exampleInputPassword1").value;
+	
+	if(email === ""){
+		alert("please enter Email")
+	}else if(password === ""){
+		alert("please enter password")
+	}
+}

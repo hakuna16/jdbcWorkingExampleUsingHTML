@@ -1,0 +1,4 @@
+function validation(){
+	var email = document.getElementById("exampleInputEmail1");
+	alert(email)
+}

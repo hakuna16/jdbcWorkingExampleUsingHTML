@@ -1,0 +1,18 @@
+function validation(){
+	var bookName = document.getElementById("formGroupExampleInput").value;
+	var authourName = document.getElementById("formGroupExampleInput2").value;
+	var type = document.getElementById("formGroupExampleInput3").value;
+	var stock = document.getElementById("formGroupExampleInput4").value;
+	
+	if(email === ""){
+		alert("please enter Email")
+		return false;
+		
+	}else if(password === ""){
+		alert("please enter password")
+		return false;
+	}else if(email != "" && password != ""){
+		document.getElementById("loginForm").submit();
+	}
+	
+}

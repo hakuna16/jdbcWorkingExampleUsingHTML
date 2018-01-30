@@ -1,0 +1,21 @@
+function validation(){
+	var email = document.getElementById("inputEmail4").value;
+	var password = document.getElementById("inputPassword4").value;
+	var password2 = document.getElementById("inputPassword4-2").value;
+	var password2 = document.getElementById("inputPassword4-2").value;
+	var inputAddress = document.getElementById("inputAddress").value;
+	var inputAddress2 = document.getElementById("inputAddress2").value;
+	
+	
+	if(email === ""){
+		alert("please enter Email")
+		return false;
+		
+	}else if(password === ""){
+		alert("please enter password")
+		return false;
+	}else if(email != "" && password != ""){
+		document.getElementById("loginForm").submit();
+	}
+	
+}

@@ -1,0 +1,16 @@
+127.0.0.1 - - [25/Jan/2018:13:29:28 +0530] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:13:29:34 +0530] "GET /ProjectForTest/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:13:30:21 +0530] "GET /ProjectForTest/ HTTP/1.1" 200 2232
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:13:30:23 +0530] "GET /favicon.ico HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:13:30:33 +0530] "GET /ProjectForTest/bootstrap.min.css.map HTTP/1.1" 404 1113
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:13:30:37 +0530] "GET /ProjectForTest/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:13:30:59 +0530] "GET /ProjectForTest/registration.html HTTP/1.1" 200 6609
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:13:30:59 +0530] "GET /ProjectForTest/js/registration.js HTTP/1.1" 200 2111
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:13:31:30 +0530] "POST /ProjectForTest/Registration HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:13:31:30 +0530] "GET /ProjectForTest/userPage.html HTTP/1.1" 200 2490
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:23:43:28 +0530] "GET /ProjectForTest/updateProfile.html HTTP/1.1" 200 4082
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:23:43:44 +0530] "GET /ProjectForTest/booksDetail.html HTTP/1.1" 200 2490
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:23:53:03 +0530] "GET /ProjectForTest/login.html HTTP/1.1" 200 3723
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:23:53:03 +0530] "GET /ProjectForTest/js/login.js HTTP/1.1" 200 420
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:23:53:10 +0530] "POST /ProjectForTest/Login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [25/Jan/2018:23:53:10 +0530] "GET /ProjectForTest/login.html HTTP/1.1" 304 -

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Liabrary Management System</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+	integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+	crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	crossorigin="anonymous"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	crossorigin="anonymous"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+	integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+	crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="/ProjectForTest/index.html">Welcome
+				to Online Liabrary Mangement System</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarNav" aria-controls="navbarNav"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active"><a class="nav-link"
+						href="/ProjectForTest/index.html"> Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item"><a class="nav-link"
+						href="/ProjectForTest/login.html">Login</a></li>
+					<li class="nav-item"><a class="nav-link"
+						href="/ProjectForTest/registration.html">Register</a></li>
+				</ul>
+			</div>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search"
+					placeholder="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+			<ul class="navbar-nav">
+				<li class="nav-item active"><a class="nav-link"
+					href="/ProjectForTest/login.html"> Sign In <span
+						class="sr-only">(current)</span></a></li>
+			</ul>
+		</nav>
+
+	</header>
+	<div class="container">
+		<form method="POST" action="Registration" id="regestrationForm">
+			<div class="form-group">
+				<div class="form-group col-md-6">
+					<label for="inputEmail4">Email</label> <input type="email"
+						class="form-control" id="inputEmail4" placeholder="Email" name="email">
+				</div>
+				<div class="form-group col-md-6">
+					<label for="inputPassword4">Password</label> <input type="password"
+						class="form-control" id="inputPassword4" placeholder="Password" name="password1" onkeyup="passwordChecker()">
+				</div>
+				<div class="form-group col-md-6">
+					<label for="inputPassword4">Re-Enter Password</label> <input
+						type="password" class="form-control" id="inputPassword4-2"
+						placeholder="Password" name="password2" onkeyup="passwordChecker()">
+						<span id='message'></span>
+				</div>
+			</div>
+			<div class="form-group col-md-6">
+				<label for="inputAddress">Address</label> <input type="text"
+					class="form-control" id="inputAddress" placeholder="1234 Main St" name="address1">
+			</div>
+			<div class="form-group col-md-6">
+				<label for="inputAddress2">Address 2</label> <input type="text"
+					class="form-control" id="inputAddress2"
+					placeholder="Apartment, studio, or floor" name="address2">
+			</div>
+			<div class="form-group">
+				<div class="form-group col-md-6">
+					<label for="inputCity">City</label> <input type="text"
+						class="form-control" id="inputCity" name="city">
+				</div>
+				<div class="form-group col-md-4">
+					<label for="inputState">State</label> <select id="inputState"
+						class="form-control" name="state">
+						<option selected>Choose...</option>
+						<option value="Andaman and Nicobar Islands">Andaman and
+							Nicobar Islands</option>
+						<option value="Andhra Pradesh">Andhra Pradesh</option>
+						<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+						<option value="Assam">Assam</option>
+						<option value="Bihar">Bihar</option>
+						<option value="Chandigarh">Chandigarh</option>
+						<option value="Chhattisgarh">Chhattisgarh</option>
+						<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+						<option value="Daman and Diu">Daman and Diu</option>
+						<option value="Delhi">Delhi</option>
+						<option value="Goa">Goa</option>
+						<option value="Gujarat">Gujarat</option>
+						<option value="Haryana">Haryana</option>
+						<option value="Himachal Pradesh">Himachal Pradesh</option>
+						<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+						<option value="Jharkhand">Jharkhand</option>
+						<option value="Karnataka">Karnataka</option>
+						<option value="Kerala">Kerala</option>
+						<option value="Lakshadweep">Lakshadweep</option>
+						<option value="Madhya Pradesh">Madhya Pradesh</option>
+						<option value="Maharashtra">Maharashtra</option>
+						<option value="Manipur">Manipur</option>
+						<option value="Meghalaya">Meghalaya</option>
+						<option value="Mizoram">Mizoram</option>
+						<option value="Nagaland">Nagaland</option>
+						<option value="Orissa">Orissa</option>
+						<option value="Pondicherry">Pondicherry</option>
+						<option value="Punjab">Punjab</option>
+						<option value="Rajasthan">Rajasthan</option>
+						<option value="Sikkim">Sikkim</option>
+						<option value="Tamil Nadu">Tamil Nadu</option>
+						<option value="Tripura">Tripura</option>
+						<option value="Uttaranchal">Uttaranchal</option>
+						<option value="Uttar Pradesh">Uttar Pradesh</option>
+						<option value="West Bengal">West Bengal</option>
+					</select>
+				</div>
+				<div class="form-group col-md-2">
+					<label for="inputZip">Postal Code</label> <input type="text"
+						class="form-control" id="inputZip" name="zipcode">
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" id="gridCheck">
+					<label class="form-check-label" for="gridCheck"> I Agree
+						terms and conditions </label>
+				</div>
+			</div>
+			<button type="button" class="btn btn-primary" onclick="validation()">Register</button>
+		</form>
+	</div>
+	<script type="text/javascript" src="/ProjectForTest/js/registration.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+2018-01-06 13:29:15,013 ERROR [Worker-5] - System.err - log4j:WARN No appenders could be found for logger (org.springsource.ide.eclipse.commons.core.templates.TemplateProcessor).
+2018-01-06 13:29:15,015 ERROR [Worker-5] - System.err - log4j:WARN Please initialize the log4j system properly.
+2018-01-12 09:36:46,593 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - Exception in thread "org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor"
+2018-01-12 09:36:46,595 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - java.lang.NullPointerException
+2018-01-12 09:36:46,595 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.wst.sse.ui.internal.projection.AbstractStructuredFoldingStrategy.getIndexedRegions(AbstractStructuredFoldingStrategy.java:508)
+2018-01-12 09:36:46,595 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.wst.sse.ui.internal.projection.AbstractStructuredFoldingStrategy.reconcile(AbstractStructuredFoldingStrategy.java:183)
+2018-01-12 09:36:46,595 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.wst.sse.ui.internal.reconcile.DocumentRegionProcessor.process(DocumentRegionProcessor.java:330)
+2018-01-12 09:36:46,595 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor.process(StructuredRegionProcessor.java:258)
+2018-01-12 09:36:46,595 ERROR [org.eclipse.wst.sse.ui.internal.reconcile.StructuredRegionProcessor] - System.err - at org.eclipse.wst.sse.ui.internal.reconcile.DirtyRegionProcessor$BackgroundThread.run(DirtyRegionProcessor.java:691)
+2018-01-16 12:44:56,312 ERROR [Extension Checker for http://master.dl.sourceforge.net/project/sapnweclipse/updates/] - System.err - Exception in thread "Extension Checker for http://master.dl.sourceforge.net/project/sapnweclipse/updates/"
+2018-01-16 12:44:56,347 ERROR [Extension Checker for http://master.dl.sourceforge.net/project/sapnweclipse/updates/] - System.err - java.lang.NullPointerException
+2018-01-16 12:44:56,347 ERROR [Extension Checker for http://master.dl.sourceforge.net/project/sapnweclipse/updates/] - System.err - at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:168)
+2018-01-16 12:44:56,347 ERROR [Extension Checker for http://master.dl.sourceforge.net/project/sapnweclipse/updates/] - System.err - at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:507)
+2018-01-16 12:44:57,373 ERROR [Extension Checker for http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/libertyAdapter/oxygen/] - System.err - Exception in thread "Extension Checker for http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/libertyAdapter/oxygen/"
+2018-01-16 12:44:57,373 ERROR [Extension Checker for http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/libertyAdapter/oxygen/] - System.err - java.lang.NullPointerException
+2018-01-16 12:44:57,373 ERROR [Extension Checker for http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/libertyAdapter/oxygen/] - System.err - at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:168)
+2018-01-16 12:44:57,373 ERROR [Extension Checker for http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/libertyAdapter/oxygen/] - System.err - at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:507)
+2018-01-16 12:44:58,354 ERROR [Extension Checker for http://jope.ow2.org/update/jope/] - System.err - Exception in thread "Extension Checker for http://jope.ow2.org/update/jope/"
+2018-01-16 12:44:58,354 ERROR [Extension Checker for http://jope.ow2.org/update/jope/] - System.err - java.lang.NullPointerException
+2018-01-16 12:44:58,354 ERROR [Extension Checker for http://jope.ow2.org/update/jope/] - System.err - at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:168)
+2018-01-16 12:44:58,354 ERROR [Extension Checker for http://jope.ow2.org/update/jope/] - System.err - at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:507)
+2018-01-16 12:44:58,873 ERROR [Extension Checker for http://www.caucho.com/eclipse/] - System.err - Exception in thread "Extension Checker for http://www.caucho.com/eclipse/"
+2018-01-16 12:44:58,873 ERROR [Extension Checker for http://www.caucho.com/eclipse/] - System.err - java.lang.NullPointerException
+2018-01-16 12:44:58,873 ERROR [Extension Checker for http://www.caucho.com/eclipse/] - System.err - at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:168)
+2018-01-16 12:44:58,873 ERROR [Extension Checker for http://www.caucho.com/eclipse/] - System.err - at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:507)
+2018-01-16 12:45:03,633 ERROR [Extension Checker for http://download.oracle.com/otn_software/oepe/oxygen/] - System.err - Exception in thread "Extension Checker for http://download.oracle.com/otn_software/oepe/oxygen/"
+2018-01-16 12:45:03,633 ERROR [Extension Checker for http://download.oracle.com/otn_software/oepe/oxygen/] - System.err - java.lang.NullPointerException
+2018-01-16 12:45:03,633 ERROR [Extension Checker for http://download.oracle.com/otn_software/oepe/oxygen/] - System.err - at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:168)
+2018-01-16 12:45:03,633 ERROR [Extension Checker for http://download.oracle.com/otn_software/oepe/oxygen/] - System.err - at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:507)
+2018-01-16 12:45:20,090 ERROR [Extension Checker for http://www.apache.org/dist/geronimo/eclipse/updates/] - System.err - Exception in thread "Extension Checker for http://www.apache.org/dist/geronimo/eclipse/updates/"
+2018-01-16 12:45:20,091 ERROR [Extension Checker for http://www.apache.org/dist/geronimo/eclipse/updates/] - System.err - java.lang.NullPointerException
+2018-01-16 12:45:20,091 ERROR [Extension Checker for http://www.apache.org/dist/geronimo/eclipse/updates/] - System.err - at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:168)
+2018-01-16 12:45:20,091 ERROR [Extension Checker for http://www.apache.org/dist/geronimo/eclipse/updates/] - System.err - at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:507)
+2018-01-16 12:45:21,382 ERROR [Extension Checker for http://download.jboss.org/jbosstools/updates/webtools/oxygen/] - System.err - Exception in thread "Extension Checker for http://download.jboss.org/jbosstools/updates/webtools/oxygen/"
+2018-01-16 12:45:21,398 ERROR [Extension Checker for http://download.jboss.org/jbosstools/updates/webtools/oxygen/] - System.err - java.lang.NullPointerException
+2018-01-16 12:45:21,398 ERROR [Extension Checker for http://download.jboss.org/jbosstools/updates/webtools/oxygen/] - System.err - at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:168)
+2018-01-16 12:45:21,398 ERROR [Extension Checker for http://download.jboss.org/jbosstools/updates/webtools/oxygen/] - System.err - at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:507)
+2018-01-16 12:45:21,597 ERROR [Extension Checker for http://download.eclipse.org/jetty/updates/jetty-wtp/] - System.err - Exception in thread "Extension Checker for http://download.eclipse.org/jetty/updates/jetty-wtp/"
+2018-01-16 12:45:21,598 ERROR [Extension Checker for http://download.eclipse.org/jetty/updates/jetty-wtp/] - System.err - java.lang.NullPointerException
+2018-01-16 12:45:21,598 ERROR [Extension Checker for http://download.eclipse.org/jetty/updates/jetty-wtp/] - System.err - at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:168)
+2018-01-16 12:45:21,598 ERROR [Extension Checker for http://download.eclipse.org/jetty/updates/jetty-wtp/] - System.err - at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:507)
+2018-01-16 12:45:23,223 ERROR [Extension Checker for http://www.pramati.com/downloads/eclipse/updates/] - System.err - Exception in thread "Extension Checker for http://www.pramati.com/downloads/eclipse/updates/"
+2018-01-16 12:45:23,223 ERROR [Extension Checker for http://www.pramati.com/downloads/eclipse/updates/] - System.err - java.lang.NullPointerException
+2018-01-16 12:45:23,223 ERROR [Extension Checker for http://www.pramati.com/downloads/eclipse/updates/] - System.err - at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:168)
+2018-01-16 12:45:23,223 ERROR [Extension Checker for http://www.pramati.com/downloads/eclipse/updates/] - System.err - at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:507)
+2018-01-16 12:45:24,387 ERROR [Extension Checker for http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/] - System.err - Exception in thread "Extension Checker for http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/"
+2018-01-16 12:45:24,387 ERROR [Extension Checker for http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/] - System.err - java.lang.NullPointerException
+2018-01-16 12:45:24,387 ERROR [Extension Checker for http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/] - System.err - at org.eclipse.wst.server.discovery.internal.model.ExtensionUpdateSite.getExtensions(ExtensionUpdateSite.java:168)
+2018-01-16 12:45:24,387 ERROR [Extension Checker for http://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/updates/bluemixAdapter/oxygen/] - System.err - at org.eclipse.wst.server.discovery.internal.ExtensionUtility$1.run(ExtensionUtility.java:507)
+2018-01-20 00:13:24,243 ERROR [Thread-978] - System.err - Exception in thread "Thread-978"
+2018-01-20 00:13:24,287 ERROR [Thread-978] - System.err - java.util.ConcurrentModificationException
+2018-01-20 00:13:24,287 ERROR [Thread-978] - System.err - at java.util.HashMap$HashIterator.nextNode(HashMap.java:1437)
+2018-01-20 00:13:24,287 ERROR [Thread-978] - System.err - at java.util.HashMap$KeyIterator.next(HashMap.java:1461)
+2018-01-20 00:13:24,287 ERROR [Thread-978] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:742)
+2018-01-20 00:13:24,287 ERROR [Thread-978] - System.err - at org.eclipse.jface.text.source.AnnotationModel.getAnnotationIterator(AnnotationModel.java:666)
+2018-01-20 00:13:24,287 ERROR [Thread-978] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.removeSummaries(ProjectionSummary.java:171)
+2018-01-20 00:13:24,287 ERROR [Thread-978] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.internalUpdateSummaries(ProjectionSummary.java:150)
+2018-01-20 00:13:24,287 ERROR [Thread-978] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary.access$3(ProjectionSummary.java:145)
+2018-01-20 00:13:24,287 ERROR [Thread-978] - System.err - at org.eclipse.jface.text.source.projection.ProjectionSummary$Summarizer.run(ProjectionSummary.java:70)

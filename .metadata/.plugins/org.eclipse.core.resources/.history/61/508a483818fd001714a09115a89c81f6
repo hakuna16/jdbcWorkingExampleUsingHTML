@@ -1,0 +1,57 @@
+function validation(){
+	var email = document.getElementById("inputEmail4").value;
+	var password = document.getElementById("inputPassword4").value;
+	var password2 = document.getElementById("inputPassword4-2").value;
+	var inputAddress = document.getElementById("inputAddress").value;
+	var inputAddress2 = document.getElementById("inputAddress2").value;
+	var inputCity = document.getElementById("inputCity").value;
+	var inputState = document.getElementById("inputState").value;
+	var inputZip = document.getElementById("inputZip").value;
+	var gridCheck = document.getElementById("gridCheck").value;
+	
+	if(email === ""){
+		alert("please enter Email")
+		return false;
+	}else if(password === ""){
+		alert("please enter password")
+		return false;
+	}else if(password2 === ""){
+		alert("please enter password2")
+		return false;
+	}else if(inputAddress === ""){
+		alert("please enter password")
+		return false;
+	}else if(inputAddress2 === ""){
+		alert("please enter password")
+		return false;
+	}else if(inputCity === ""){
+		alert("please enter password")
+		return false;
+	}else if(inputState === ""){
+		alert("please enter password")
+		return false;
+	}else if(inputZip === ""){
+		alert("please enter password")
+		return false;
+	}else if(gridCheck === ""){
+		alert("please enter password")
+		return false;
+	}else if(email != "" && password != "" && password2 != "" && inputAddress != "" && inputAddress2 != "" && inputCity != "" && inputState != "" && inputZip != "" && gridCheck != ""){
+		document.getElementById("regestrationForm").submit();
+	}
+	
+}
+
+function passwordChecker(){
+	
+	var password = document.getElementById("inputPassword4").value;
+	var password2 = document.getElementById("inputPassword4-2").value;
+	
+	if(password == password2){
+		document.getElementById('message').style.color = 'green';
+	    document.getElementById('message').innerHTML = 'matching';
+	}else{
+		document.getElementById('message').style.color = 'red';
+	    document.getElementById('message').innerHTML = 'not matching';
+	}
+}

@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:00:03:56 +0530] "GET /ProjectForTest/ HTTP/1.1" 200 2232
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:00:04:36 +0530] "GET /ProjectForTest/registration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:00:04:36 +0530] "GET /ProjectForTest/js/registration.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:00:07:50 +0530] "GET /ProjectForTest/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:00:09:15 +0530] "GET /ProjectForTest/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:00:09:15 +0530] "GET /ProjectForTest/js/login.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:00:10:25 +0530] "POST /ProjectForTest/Login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:00:10:25 +0530] "GET /ProjectForTest/userPage.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:00:24:22 +0530] "POST /ProjectForTest/Login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:00:24:22 +0530] "GET /ProjectForTest/userPage.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:00:26:01 +0530] "GET /ProjectForTest/index.html HTTP/1.1" 200 2232
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:00:26:02 +0530] "GET /favicon.ico HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [18/Jan/2018:00:26:14 +0530] "POST /ProjectForTest/Login HTTP/1.1" 200 -

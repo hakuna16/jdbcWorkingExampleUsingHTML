@@ -1,0 +1,16 @@
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:00:28:29 +0530] "POST /ProjectForTest/Login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:00:28:30 +0530] "GET /ProjectForTest/userAdminPage.html HTTP/1.1" 200 2504
+127.0.0.1 - - [26/Jan/2018:00:52:40 +0530] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:00:53:34 +0530] "GET /ProjectForTest/booksDetail.html HTTP/1.1" 200 2577
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:00:53:35 +0530] "GET /favicon.ico HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:00:53:40 +0530] "GET /ProjectForTest/addBook.html HTTP/1.1" 200 3599
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:01:10:15 +0530] "GET /ProjectForTest/addBook.html HTTP/1.1" 200 3631
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:01:10:17 +0530] "GET /favicon.ico HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:01:11:14 +0530] "GET /ProjectForTest/addBook.html HTTP/1.1" 200 3631
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:01:11:15 +0530] "GET /favicon.ico HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:01:11:32 +0530] "POST /ProjectForTest/AddBooks HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:01:20:00 +0530] "GET /ProjectForTest/addBook.html HTTP/1.1" 200 3710
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:01:20:00 +0530] "GET /ProjectForTest/js/addBook.js HTTP/1.1" 200 788
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:01:20:02 +0530] "GET /favicon.ico HTTP/1.1" 404 1084
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:01:21:23 +0530] "GET /ProjectForTest/addBook.html HTTP/1.1" 200 3710
+0:0:0:0:0:0:0:1 - - [26/Jan/2018:01:21:23 +0530] "GET /ProjectForTest/js/addBook.js HTTP/1.1" 200 792
